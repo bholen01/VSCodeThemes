@@ -1,0 +1,22 @@
+{
+    "name": "terra-theme",
+    "displayName": "terra-theme",
+    "description": "An earthy, low-eye-strain theme",
+    "version": "0.0.1",
+    "publisher": "benji",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Terra Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Terra-color-theme.json"
+            }
+        ]
+    }
+}
